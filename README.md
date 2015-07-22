@@ -8,3 +8,11 @@ javascript:(function(){var css = document.createElement("style");css.type = "tex
 ```
 
 When you're on a page on Project Gutenberg (like [Around the World in 80 Days](https://www.gutenberg.org/files/103/103-h/103-h.htm)), poke the bookmarklet and it'll make the page far more attractive and legible.
+
+#### Example:
+
+*Before:*
+<img width="1280" alt="before" src="https://cloud.githubusercontent.com/assets/22547/8819071/907a4758-2ffd-11e5-8f36-d8b319e7494c.png">
+
+*After:*
+<img width="1280" alt="after" src="https://cloud.githubusercontent.com/assets/22547/8819072/907d3aee-2ffd-11e5-87b5-6040c82c86b2.png">
