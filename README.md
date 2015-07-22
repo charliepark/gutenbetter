@@ -2,7 +2,7 @@
 A bookmarklet for making Project Gutenberg pages more legible and appealing
 
 1. Just drag this link — [Gutenbetter]() — to your bookmarks toolbar.
-2. Right-click on the bookmarklet, hit “edit”, and insert this into the URL field:
+2. Right-click on the bookmarklet in your toolbar, hit “edit”, and insert this into the URL field:
 ```
 javascript:(function(){
   var css = document.createElement("style");
