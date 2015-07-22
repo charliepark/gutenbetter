@@ -2,7 +2,7 @@
 A bookmarklet for making Project Gutenberg pages more legible and appealing
 
 1. Just drag this link — [Gutenbetter]() — to your bookmarks toolbar.
-2. Right-click on the bookmarklet and hit "edit", and insert this into the URL field:
+2. Right-click on the bookmarklet, hit “edit”, and insert this into the URL field:
 ```
 javascript:(function(){
   var css = document.createElement("style");
@@ -12,12 +12,12 @@ javascript:(function(){
 })();
 ```
 
-When you're on a page on Project Gutenberg (like [Around the World in 80 Days](https://www.gutenberg.org/files/103/103-h/103-h.htm)), poke the bookmarklet and it'll make the page far more attractive and legible.
+When you’re on a page on Project Gutenberg (like [Around the World in 80 Days](https://www.gutenberg.org/files/103/103-h/103-h.htm)), poke the bookmarklet and it’ll make the page far more attractive and legible.
 
 #### Example:
 
-*Before:*
+**Before:**
 <img width="1280" alt="before" src="https://cloud.githubusercontent.com/assets/22547/8819071/907a4758-2ffd-11e5-8f36-d8b319e7494c.png">
 
-*After:*
+**After:**
 <img width="1280" alt="after" src="https://cloud.githubusercontent.com/assets/22547/8819072/907d3aee-2ffd-11e5-87b5-6040c82c86b2.png">
