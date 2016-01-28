@@ -7,7 +7,7 @@ A bookmarklet for making Project Gutenberg pages more legible and appealing
 javascript:(function(){
   var css = document.createElement("style");
   css.type = "text/css";
-  css.innerHTML = '*{font-family: "Avenir Next", avenir, sans-serif;line-height:1.65}h1,h2,h3,h4,h5,h6{color: #444;margin: 1rem 0;}hr{border:0;background: none;border-bottom: 1px solid #eee;}h3 + hr{margin-bottom: 2rem}p + hr{margin-top: 4rem;}p{text-align: left}.stanza{background-color: #F6F6F6;border-radius: 10px;box-sizing: border-box;padding: 1rem 1.5rem;}p,pre,.poem .stanza{line-height:1.65;margin: 1em auto 1.65em;max-width:36em;}';
+  css.innerHTML = '*{font-family: "Avenir Next", avenir, sans-serif;line-height:1.65}body{font-size:16px}h1,h2,h3,h4,h5,h6{color: #444;margin: 1rem 0;}hr{border:0;background: none;border-bottom: 1px solid #eee;}h3 + hr{margin-bottom: 2rem}p + hr{margin-top: 4rem;}p{text-align: left}.stanza{background-color: #F6F6F6;border-radius: 10px;box-sizing: border-box;padding: 1rem 1.5rem;}p,pre,.poem .stanza{line-height:1.65;margin: 1em auto 1.65em;max-width:36em;}';
   document.body.appendChild(css);
 })();
 ```
